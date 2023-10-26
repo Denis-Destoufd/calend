@@ -1,0 +1,36 @@
+body{
+  background-color: rgba(47, 255, 175, 0.562);
+  column-width: auto;
+  bottom: auto;
+  direction: ltr;
+}
+div{
+  display: flex;
+  align-items: center;
+  height: 100%;
+}
+p{
+  margin: 0;
+}
+.icons{
+  cursor: pointer;
+  font-size: medium;
+  color: black;
+}
+.days{
+  table-layout: fixed;
+  width: 50%;
+  border-collapse: collapse;
+  border: 3px solid gray;
+}
+.number{
+  table-layout: unset;
+  width: 20%;
+  border-collapse: collapse;
+  border: 23px;
+}
+
+
+
+
+
