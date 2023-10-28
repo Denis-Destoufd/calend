@@ -1,5 +1,5 @@
 body{
-  background-color: rgba(47, 255, 175, 0.562);
+  background-color: rgb(0, 247, 255);
   column-width: auto;
   bottom: auto;
   direction: ltr;
@@ -12,10 +12,14 @@ div{
 p{
   margin: 0;
 }
+.date{
+  color:rgb(255, 0, 0) ;
+  font-size: x-large;
+}
 .icons{
   cursor: pointer;
-  font-size: medium;
-  color: black;
+  font-size: large;
+  border-collapse: collapse;
 }
 .calendar{
   table-layout: fixed;
@@ -25,9 +29,19 @@ p{
 }
 .number{
   column-count: 5;
-  column-gap: 20px;
+  column-gap: 10px;
   column-rule-style: none;
+  list-style-type: none;
+  -webkit-text-stroke : 1px #fac;
+  table-layout: fixed;
+  width: 100%;
+  font-size: large;
 }
+.days{
+  color: blue; 
+  font-size: large;
+}
+
 
 
 
